@@ -1,3 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+}
+.center {
+    text-align: center;
+}
 .nav-link {
     color:#444444;
 }
@@ -7,13 +17,46 @@
 .info-item,
 .info-link {
     color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
 }
 .title p {
     color: #30a3f0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 .title h1 {
     color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 800;
 }
 .btn {
     color: #30a3f0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.box-item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.title-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+}
+.title-h2 span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #30a3f0;
+}
+.description {
+    color: #707070;
+}
+.check-list li {
+    color: #222;
 }
