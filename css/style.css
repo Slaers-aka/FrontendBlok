@@ -11,6 +11,7 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 1170px;
+    position: relative;
 }
 .head {
     padding-bottom: 213px;
@@ -160,7 +161,7 @@ body {
 }
 .box-item {
     flex-basis: 33.333%;
-    padding: 0 60px 110px;
+    padding: 93px 60px 110px;
 }
 .box-item-center {
     border-left: 1px solid #e4e4e43b;
@@ -171,6 +172,24 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 28px;
+}
+.box-icon {
+    width: 152px;
+    height: 152px;
+    font-size: 40px;
+    line-height: 4;
+    color: #222;
+    background-image: url(../img/gray.png);
+    background-position: center center;
+    margin: 0 auto 26px;
+}
+.box-icon-pen {
+    font-size: 30px;
+    line-height: 5.2;
+}
+.box-item:hover .box-icon{
+    color: #fff;
+    background-image: url(../img/blue.png);
 }
 .title-h2 {
     font-family: 'Raleway', sans-serif;
@@ -199,6 +218,65 @@ body {
 .description {
     color: #707070;
 }
-.check-list li {
+.check-list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.check-list > li {
     color: #222;
+    margin-bottom: 26px;
+    padding-left: 36px;
+    position: relative;
+}
+.check-list > li::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 14px;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 7px);
+}
+.btn-blue {
+    color: #fff;
+    background-color: #30a3f0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #30a3f0;
+    border-radius: 5px;
+    padding: 20px 42px;
+}
+.btn-blue:hover {
+    color: #30a3f0;
+    background-color: #fff;
+}
+.box-text {
+    max-width: 530px;
+}
+.page-mockup {
+    margin-top: 100px;
+    padding-bottom: 102px;
+}
+.mockup {
+    display: block;
+    width: 625px;
+    height: 557px;
+    background-image: url(../img/mockup/mockup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -75px;
+    bottom: 0;
+}
+.page-gray {
+    background-color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 62px;
 }
