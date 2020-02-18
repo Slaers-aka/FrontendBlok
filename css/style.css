@@ -197,7 +197,7 @@ body {
     font-weight: 800;
     text-transform: uppercase;
     color: #000;
-    margin-bottom: 21px;
+    margin-bottom: 14px;
 }
 .title-h2 span {
     font-size: 16px;
@@ -215,8 +215,21 @@ body {
     width: 53px;
     margin-bottom: 40px;
 }
+.center-line {
+    display: block;
+    background-image: url(../img/line-center.svg);
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 91px;
+    margin: 0 auto 32px;
+}
 .description {
     color: #707070;
+    line-height: 26px;
+}
+.page-gray .description{
+    max-width: 690px;
+    margin: 0 auto;
 }
 .check-list {
     padding-left: 0;
@@ -279,4 +292,71 @@ body {
     background-color: #fafafa;
     padding-top: 100px;
     padding-bottom: 62px;
+}
+.photo {
+    display: flex;
+}
+.photo-item {
+    overflow: hidden;
+    flex-basis: 20%;
+    height: 350px;
+    position: relative;
+}
+.photo-item img {
+    width: 100%;
+    position: absolute;
+    height: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+.photo-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: calc(50% - 30px);
+    display: none;
+}
+.photo-text h3 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+.photo-text p {
+    color: #707070;
+    margin-bottom: 0;
+}
+.photo-item:hover {
+    background-color: rgba(34, 34, 34, 0.8);
+}
+.photo-item:hover .photo-text {
+    display: block;
+}
+.photo-btn {
+    position: absolute;
+    line-height: 16px;
+    right: 0;
+    bottom: 23px;
+}
+.photo-btn a {
+    font-size: 16px;
+    padding: 22px;
+    display: none;
+}
+.photo-btn .photo-btn-white {
+    background-color: #fff;
+    color: #222;
+}
+.photo-btn .photo-btn-blue {
+    background-color: #30a3f0;
+    color: #fff;
+}
+.photo-item:hover .photo-btn a {
+    display: initial;
 }
