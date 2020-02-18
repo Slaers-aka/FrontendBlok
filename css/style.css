@@ -187,6 +187,17 @@ body {
     font-size: 30px;
     line-height: 5.2;
 }
+.box-icon-min {
+    font-size: 24px;
+    color: #c9c9c9;
+    width: 96px;
+    height: 96px;
+    background-size: 96px 96px;
+    flex-basis: 96px;
+    text-align: center;
+    line-height: 4.1;
+    margin: initial;
+}
 .box-item:hover .box-icon{
     color: #fff;
     background-image: url(../img/blue.png);
@@ -359,4 +370,34 @@ body {
 }
 .photo-item:hover .photo-btn a {
     display: initial;
+}
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 70px 50px;
+    padding-top: 123px;
+    padding-bottom: 127px;
+}
+.grid h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 21px;
+    margin-top: 0;
+}
+.grid .description {
+    margin-bottom: 0;
+}
+.grid-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-line-text {
+    flex-basis: calc(100% - 126px);
+}
+.grid-item:hover .box-icon-min {
+    color: #fff;
+    background-image: url(../img/blue-min.png);
 }
