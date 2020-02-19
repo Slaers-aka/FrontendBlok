@@ -16,6 +16,8 @@ body {
 .head {
     padding-bottom: 213px;
     background-image: url(../img/background/bg_top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-top {
     display: flex;
@@ -144,6 +146,7 @@ body {
     border: 1px solid #30a3f0;
     border-radius: 5px;
     padding: 20px 42px;
+    transition: background-color 0.5s linear, color 0.2s ease-in;
 }
 .btn:hover {
     background-color: #30a3f0;
@@ -276,6 +279,7 @@ body {
     border: 1px solid #30a3f0;
     border-radius: 5px;
     padding: 20px 42px;
+    transition: background-color 0.5s linear, color 0.2s ease-in;
 }
 .btn-blue:hover {
     color: #30a3f0;
@@ -400,4 +404,17 @@ body {
 .grid-item:hover .box-icon-min {
     color: #fff;
     background-image: url(../img/blue-min.png);
+}
+.page.page-bg {
+    background-image: url(../img/background/bg_center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 108px;
+    padding-bottom: 111px;
+}
+.page.page-bg h1 {
+    margin-bottom: 40px;
+}
+.page.page-bg p.center {
+    margin-bottom: 54px;
 }
