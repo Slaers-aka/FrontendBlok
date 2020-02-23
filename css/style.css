@@ -309,6 +309,11 @@ body {
     background-color: #fafafa;
     padding-top: 100px;
 }
+.page-company {
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .photo {
     display: flex;
     margin-top: 62px;
@@ -659,4 +664,99 @@ body {
 }
 .blog-item:hover svg {
     display: initial;
+}
+.company {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.company-item {
+    display: block;
+    height: 90px;
+    background-image: url(../img/company.png);
+    background-repeat: no-repeat;
+}
+.company-one {
+    width: 116px;
+    flex-basis: 116px;
+    background-position-y: center;
+    background-position-x: -19px;
+}
+.company-two {
+    width: 125px;
+    flex-basis: 125px;
+    background-position-y: center;
+    background-position-x: -213px;
+}
+.company-three {
+    width: 97px;
+    flex-basis: 97px;
+    background-position-y: center;
+    background-position-x: -428px;
+}
+.company-four {
+    width: 120px;
+    flex-basis: 120px;
+    background-position-y: center;
+    background-position-x: -616px;
+}
+.company-five {
+    width: 90px;
+    flex-basis: 90px;
+    background-position-y: center;
+    background-position-x: -832px;
+}
+.company-six {
+    width: 124px;
+    flex-basis: 124px;
+    background-position-y: center;
+    background-position-x: -1014px;
+}
+.footer {
+    background-color: #151515;
+}
+.btn-footer {
+    color: #707070;
+    background-color: #1a1a1a;
+    font-size: 26px;
+    width: 47px;
+    height: 34px;
+    display: block;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.btn-footer:focus {
+    outline: none;
+}
+.footer-bg {
+    background-color: #1a1a1a;
+    padding-top: 34px;
+    padding-bottom: 32px;
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-list {
+    font-size: 14px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer-list > li {
+    padding-left: 23px;
+    margin-left: 23px;
+    border-left: 1px solid #3a3a3a;
+}
+.footer-list > li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
+}
+.footer-list > li > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
 }
