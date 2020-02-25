@@ -588,6 +588,10 @@ body {
 .page-blog .center-line {
 	margin-bottom: 26px;
 }
+.page-blog {
+    padding-top: 68px;
+    padding-bottom: 98px;
+}
 .blog {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
@@ -726,7 +730,11 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   /*! position: relative; */
+}
+.page-company {
+    background-color: #fafafa;
+    padding-top: 118px;
+    padding-bottom: 118px;
 }
 .company-item {
     display: block;
@@ -739,23 +747,18 @@ body {
     flex-basis: 116px;
     background-position-y: center;
     background-position-x: -20px;
-    /*! margin-left: 20px; */
-    /*! position: absolute; */
-    /*! left: -9px; */
 }
 .company-two {
     width: 125px;
     flex-basis: 125px;
     background-position-y: center;
     background-position-x: -213px;
-    /*! margin-left: -26px; */
 }
 .company-three {
     width: 97px;
     flex-basis: 97px;
     background-position-y: center;
     background-position-x: -428px;
-    /*! margin-left: -28px; */
 }
 .company-four {
     width: 120px;
@@ -790,7 +793,6 @@ body {
     margin: 0 auto;
     cursor: pointer;
     line-height: 21px;
-    /*! margin-top: 1px; */
 }
 .btn-footer:focus {
     outline: none;
