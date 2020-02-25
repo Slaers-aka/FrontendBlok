@@ -415,7 +415,7 @@
                                 <div class="eye-blog"><i class="far fa-eye"></i></div>
                                 <div class="blog-share">
                                     <a href="#" class="comments">
-                                        ><i class="fas fa-comment"></i>50</a>
+                                        <i class="fas fa-comment"></i>50</a>
                                     <a href="#" class="like"><i class="fas fa-thumbs-up"></i>98</a>
                                 </div>
                             </div>
@@ -489,5 +489,13 @@
         </div>
     </footer>
     <script src="js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $("#btnUp").click(function(){
+            $("html").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+    </script>
 </body>
 </html>
