@@ -26,7 +26,9 @@
                     </ul>
                 </div>
                 <div class="header-nav">
-                    <img src="img/logo-m.svg" class="logo" alt="Logo">
+                    <div class="logo">
+                        <img src="img/logo-m.svg" alt="Logo">
+                    </div>
                     <nav>
                         <ul class="nav">
                             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
@@ -37,10 +39,15 @@
                             <li class="nav-item"><a class="nav-link" href="#">Shortcodes</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                            <li class="nav-item nav-item-info"><a class="nav-link" href="#">Login</a></li>
+                            <li class="nav-item nav-item-info"><a class="nav-link" href="#">Register</a></li>
                             <li class="nav-item-btn"><button class="nav-btn"><i class="fas fa-search"></i></button></li>
                             <li class="nav-item-btn"><button class="nav-btn"><i class="fas fa-share-alt"></i></button></li>
                         </ul>
                     </nav>
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
                 </div>
                 <div class="title center">
                     <div class="element top-element"></div>
@@ -490,12 +497,6 @@
     </footer>
     <script src="js/all.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script>
-        $("#btnUp").click(function(){
-            $("html").animate({
-                scrollTop: 0
-            }, "slow");
-        });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
