@@ -70,9 +70,6 @@ body {
     background-color: #fff;
     padding: 22px 40px 21px;
     margin-bottom: 220px;
-    display: flex;
-    align-items: center;
-}
 }
 .logo {
     width: 158px;
@@ -858,8 +855,15 @@ body {
         justify-content: center;
         padding: 23px 40px 23px;
     }
+    nav {
+        flex-basis: 100%;
+    }
     .nav {
         margin-top: 28px;
+        /*------*/
+        justify-content: center;
+        margin: 19px auto 0;
+        flex-wrap: wrap;
     }
     .box-item {
         padding: 60px 30px 60px;
@@ -887,14 +891,14 @@ body {
         padding: 23px 40px 16px;
         margin-bottom: 80px;
     }
-    nav {
+    /* nav {
         flex-basis: 100%;
     }
     .nav {
         justify-content: center;
         margin: 19px auto 0;
         flex-wrap: wrap;
-    }
+    } */
     .nav-link, .nav-link.active {
         padding: 6px 10px 9px;
     }
